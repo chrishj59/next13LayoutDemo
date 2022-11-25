@@ -1,8 +1,10 @@
+'use client'
+
 import Link from 'next/link';
 import { InputText } from 'primereact/inputtext';
 import { MegaMenu } from 'primereact/megamenu';
 
-'use client';
+
 
 // import { useRouter } from 'next/router';
 // import React from 'react';
