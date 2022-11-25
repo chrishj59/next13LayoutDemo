@@ -1,6 +1,8 @@
 import { NavBar } from './components/navbar';
 
-('use client');
+
+
+
 
 type Brand = {
 	id: number;
@@ -33,7 +35,7 @@ type MenuItem = {
 // 	};
 //}
 
-export default async function RootLayout({
+export default function RootLayout({
 	children,
 }: {
 	children: React.ReactNode;
